@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 7</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="img/logo-amarillo2.png" alt="" height="50px">
+            
+        </header>
+        <h1>CASOS PRACTICOS DE CONDICIONALES ANIDADAS</h1>
+        <div id="caso"><img src="img/caso1-removebg-preview.png" alt=""></div>
+        <div id="solucion">
+            <script>
+                //Declaración de variables
+                var prom,n1,n2,n3,resultado;
+                
+                //Fase de lectura/escritura
+                n1=parseInt(prompt("Ingrese nota 1"))
+                n2=parseInt(prompt("Ingrese nota 2"))
+                n3=parseInt(prompt("Ingrese nota 3"))
+
+                //Fase del procesamiento de datos
+                prom=(n1+n2+n3)/3;
+
+                if (prom<4) {
+                    resultado="REPROBADO";
+                } else {
+                    if (prom>=7) {
+                        resultado="PROMOCIONADO";
+                    } else {
+                        resultado="REGULAR";
+                    }
+                }
+
+                //Fase de salida
+                document.write("====== Promedio de notas ====== <br>")
+                document.write("La nota 1 es: "+n1+"<br>")
+                document.write("La nota 2 es: "+n2+"<br>")
+                document.write("La nota 3 es: "+n3+"<br>")
+                document.write("El promedio es: "+prom.toFixed(2)+"<br>")
+                document.write("El resultado es: "+resultado+"<br>")
+                document.write("======= FIN ========")
+
+            </script>
+
+
+        </div>
+    </main>
+
+
+
+</body>
+</html>

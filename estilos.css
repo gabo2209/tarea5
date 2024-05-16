@@ -1,0 +1,23 @@
+main{
+    border: 1px solid red;
+    width: 75%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    color: #0798F2;
+}
+#caso{
+    text-align: center;
+}
+#solucion{
+    height: 200px;
+    border: 1px solid green;
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+}
